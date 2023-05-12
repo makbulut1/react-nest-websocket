@@ -1,0 +1,6 @@
+*
+!*/
+!react/**
+!nestjs-socket-consumer/**
+!nest/**
+!.gitignore
