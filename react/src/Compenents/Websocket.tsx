@@ -22,7 +22,7 @@ export const Websocket = () => {
         return(() => {
             console.log('Unregistering Event...');
             socket.off('connect');
-            socket.off('onMessages');
+            socket.off('onMessage');
         })
     },[]);
     const onSubmit = () => {
